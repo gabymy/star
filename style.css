@@ -1,0 +1,137 @@
+.marco{
+    height: 30rem;
+    width: 30rem;
+    background-color: black;
+    border-radius: 100%;
+    margin-left: 25rem;
+   }
+  .raya {
+    width: 9rem;
+    height: 0.1rem;
+    background-color: white;
+    position: relative;
+    bottom: 20rem;
+    left: 30rem;  
+    border-radius: 0rem 0rem 0rem 0rem;
+    z-index: 20;
+    transform: rotate(0deg);
+  }
+  .uno{
+     bottom: 21.5rem;
+     left: 34.5rem;  
+     transform: rotate(108deg);
+     animation-name: star;
+     animation-duration: 5s;
+     animation-delay: 30s;
+     /*animation-iteration-count: 10;*/
+     /*animation-direccion: alternate-reverse;*/
+     /*animation-fill-mode: forwards;*/
+    
+  }
+  .dos{
+     bottom: 21.5rem;
+     left: 37rem;  
+     transform: rotate(-105deg);
+    animation-name: star;
+     animation-duration: 5s;
+     animation-delay: 27s;
+     /*animation-iteration-count: 10;
+     /*animation-direccion: alternate-reverse;
+    animation-fill-mode: forwards;*/
+  }
+  .tres{
+     bottom: 17.25rem;
+     left: 42.6rem;  
+     transform: rotate(0deg);
+     animation-name: star;
+     animation-duration: 5s;
+     animation-delay: 24s;
+     /*animation-direccion: alternate-reverse;
+    animation-fill-mode: forwards;*/
+    /*animation-iteration-count: 10;*/
+  }
+  .cuatro{
+     bottom: 14.8rem;
+     left: 43.5rem;  
+     transform: rotate(145deg);
+    animation-name: star;
+     /*animation-iteration-count: 10;*/
+     animation-duration: 5s;
+     animation-delay: 21s;
+     /*animation-direccion: alternate-reverse;
+    animation-fill-mode: forwards;*/
+  }
+  .cinco{
+     bottom: 8.2rem;
+     left: 41.4rem;  
+     transform: rotate(-290deg); 
+    animation-name: star;
+     /*animation-iteration-count: 10;*/
+     animation-duration: 5s;
+     animation-delay: 18s;
+     /*animation-direccion: alternate-reverse;
+    animation-fill-mode: forwards;*/
+  }
+  .seis{
+    bottom: 6.55rem;
+     left: 39.3rem;  
+     transform: rotate(215deg);
+    animation-name: star;
+     /*animation-iteration-count: 10;*/
+     animation-duration: 5s;
+     animation-delay: 15s;
+     /*animation-direccion: alternate-reverse;
+    animation-fill-mode: forwards;*/
+  }
+  .siete{
+     bottom: 6.6rem;
+     left: 32rem;  
+     transform: rotate(145deg);
+    animation-name: star;
+     /*animation-iteration-count: 10;*/
+     animation-duration: 5s;
+     animation-delay: 12s;
+     /*animation-direccion: alternate-reverse;
+    animation-fill-mode: forwards;*/
+  }
+  .ocho{
+     bottom: 8.5rem;
+     left: 29.95rem;  
+     transform: rotate(110deg);
+    animation-name: star;
+     /*animation-iteration-count: 10;*/
+     animation-duration: 5s;
+     animation-delay:9s;
+     /*animation-direccion: alternate-reverse;
+    animation-fill-mode: forwards;*/
+  }
+  .nueve{
+     bottom:15.4rem;
+     left: 27.9rem;  
+     transform: rotate(36deg);
+    animation-name: star;
+     /*animation-iteration-count: 10;*/
+     animation-duration: 5s;
+     animation-delay: 6s;
+     /*animation-direccion: alternate-reverse;
+    animation-fill-mode: forwards;*/
+  }
+  .diez{
+     bottom: 18.2rem;
+     left: 28.7rem;  
+     transform: rotate(0deg);
+    animation-name: star;
+     /*animation-iteration-count: 10;*/
+     animation-duration: 5s;
+     animation-delay: 3s;
+     /*animation-direccion: alternate-reverse;
+     animation-fill-mode: forwards;*/
+  }
+  @keyframes star{
+    0%   {background-color: #b7094c;}
+    25%  {background-color: #892b64;}
+    50%  {background-color: #455e89;}
+    100% {background-color: #0091ad;}
+    }
+  
+  
